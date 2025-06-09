@@ -1,0 +1,21 @@
+﻿Enunciado
+
+Estás trabajando en una aplicación de control de calidad para una fábrica de dispositivos electrónicos. 
+Cada dispositivo (por ejemplo, teléfonos, tablets o routers) debe pasar por una serie de inspecciones técnicas automatizadas que varían según el tipo de dispositivo.
+
+Por ejemplo:
+ - Un teléfono debe pasar por verificación de señal, estado de pantalla, batería y cámara.
+ - Una tablet pasa por validación de pantalla, batería y sensores.
+ - Un router verifica conectividad de puertos, cobertura y temperatura interna.
+
+Tu equipo quiere que el sistema pueda aplicar esta secuencia de validaciones sobre un dispositivo sin tener que modificar las clases de los dispositivos,
+y que las validaciones puedan evolucionar independientemente (por ejemplo, agregar una nueva validación para dispositivos antiguos, o eliminar una para los nuevos modelos).
+
+Requisitos:
+ - El sistema debe permitir aplicar distintas validaciones sobre un dispositivo, sin modificar su estructura.
+ - Las validaciones deben poder operar con distintos tipos de dispositivos sin duplicar lógica.
+ - Cada validación puede hacer operaciones específicas dependiendo del tipo de dispositivo.
+ - Se debe poder agregar nuevas validaciones sin modificar el código de los dispositivos ni de las anteriores validaciones.
+
+El objetivo es lograr un sistema de inspecciones flexible, desacoplado y abierto a extensión, donde cada dispositivo sea recorrido 
+de manera ordenada sin necesidad de que ellos conozcan las validaciones.
