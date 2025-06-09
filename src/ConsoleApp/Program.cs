@@ -1,4 +1,8 @@
-﻿using ConsoleApp.CompositePattern.Implementations;
+﻿using ConsoleApp.AbstractFactorypattern.Entities;
+using ConsoleApp.AbstractFactoryPattern.Abstractions;
+using ConsoleApp.AbstractFactoryPattern.Enums;
+using ConsoleApp.AbstractFactoryPattern.Factory;
+using ConsoleApp.CompositePattern.Implementations;
 using ConsoleApp.FactoryPattern.Abstractions;
 using ConsoleApp.FactoryPattern.Enums;
 using ConsoleApp.FactoryPattern.Implementations;
@@ -13,6 +17,7 @@ namespace ConsoleApp
             //TestMemento();
             //TestComposite();
             //TestFactory();
+            TestAbstractFactory();
         }
 
         static void TestMemento()
@@ -123,5 +128,36 @@ namespace ConsoleApp
             Console.ReadKey();
         }    
     
+        static void TestAbstractFactory()
+        {
+            IFactoryArgentina argentinaFactory = new FactoryArgentina();
+            IFactoryUsa usaFactory = new FactoryUsa();
+            IFactorySpain spainFactory = new FactorySpain();
+
+            var address = new Address
+            {
+                Street = "Calle de prueba",
+                Number = 123,
+                Country = Countries.Argentina
+            };
+
+            //Elementos de Argentina
+            IInvoice invoice = argentinaFactory.CreateInvoice(1000);
+            IShipment shipment = argentinaFactory.CreateShipment(address);
+            invoice.Identify();
+            shipment.Identify();
+
+            //Elementos de USA
+            invoice = usaFactory.CreateInvoice(500);
+            shipment = usaFactory.CreateShipment(address);
+            invoice.Identify();
+            shipment.Identify();
+
+            //Elementos de España
+            invoice = spainFactory.CreateInvoice(500);
+            shipment = spainFactory.CreateShipment(address);
+            invoice.Identify();
+            shipment.Identify();
+        }
     }
 }

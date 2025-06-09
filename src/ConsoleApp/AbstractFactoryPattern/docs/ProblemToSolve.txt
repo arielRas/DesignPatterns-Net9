@@ -1,0 +1,17 @@
+﻿Enunciado
+Estás desarrollando una aplicación de venta online que se adapta a distintos países. Cada país tiene reglas propias para facturación y envío.
+
+Por ejemplo:
+ - En Argentina, las facturas deben tener un formato específico (AFIP) y los envíos se realizan por Correo Argentino.
+ - En Estados Unidos, la factura es del tipo IRS y el envío va por FedEx.
+ - En España, se factura con el modelo AEAT y se utiliza Correos.
+
+Tu equipo quiere implementar una solución que permita seleccionar dinámicamente el país y a partir de ahí usar los componentes correctos de facturación y envío, 
+sin que el código cliente sepa qué clases concretas está utilizando.
+
+
+Requisitos:
+ - El sistema debe permitir crear objetos relacionados (factura + envío) según el país elegido.
+ - No se deben utilizar if o switch en el código cliente para saber qué clases concretas usar.
+ - Debe facilitar la adición de nuevos países sin romper código existente.
+ - Los objetos de facturación y envío deben poder trabajar juntos sin importar su país de origen.
