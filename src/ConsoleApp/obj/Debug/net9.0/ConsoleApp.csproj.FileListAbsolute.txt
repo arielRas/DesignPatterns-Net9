@@ -1,0 +1,14 @@
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll

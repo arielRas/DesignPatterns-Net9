@@ -1,0 +1,18 @@
+Enunciado
+
+- Estás desarrollando una herramienta de diseño gráfico que permite a los usuarios aplicar una serie de transformaciones a una imagen (como filtros de color, rotación, recorte, compresión, etc.).
+
+- Cada transformación se aplica sobre una imagen original y genera una nueva versión de la misma.
+
+- La aplicación debe permitir a los usuarios deshacer uno o varios pasos, volviendo a estados anteriores de la imagen, y también rehacerlos si se arrepienten.
+
+Requisitos:
+- Cada vez que se aplica una transformación, el estado anterior debe preservarse de alguna manera.
+
+- El usuario debe poder ejecutar operaciones de “Deshacer” (Undo) y “Rehacer” (Redo) en orden cronológico.
+
+- No se permite almacenar todas las versiones como archivos independientes: la idea es simular el comportamiento a nivel memoria/estado.
+
+- El código cliente no debe depender del tipo de transformación aplicada: solo debe poder aplicar, deshacer y rehacer acciones.
+
+- El desafío está en cómo encapsular y recuperar el estado anterior de una imagen de forma segura y controlada, sin acoplar el cliente al contenido interno de la imagen.
