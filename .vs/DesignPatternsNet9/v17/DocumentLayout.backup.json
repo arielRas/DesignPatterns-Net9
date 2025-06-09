@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\docs\\problemtosolve.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\docs\\problemtosolve.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\repositorypattern\\docs\\problemtosolve.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\repositorypattern\\docs\\problemtosolve.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\factoryusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\factoryusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\factoryspain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\factoryspain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\factoryargentina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\factoryargentina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\ifactoryspain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\ifactoryspain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\ifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\ifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\ifactoryargentina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\ifactoryargentina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\abstractfactorypattern\\factory\\ifactoryusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\abstractfactorypattern\\factory\\ifactoryusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProblemToSolve.txt",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\docs\\ProblemToSolve.txt",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\docs\\ProblemToSolve.txt",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\docs\\ProblemToSolve.txt",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\docs\\ProblemToSolve.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\RepositoryPattern\\docs\\ProblemToSolve.txt",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\RepositoryPattern\\docs\\ProblemToSolve.txt",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\RepositoryPattern\\docs\\ProblemToSolve.txt",
+              "RelativeToolTip": "src\\ConsoleApp\\RepositoryPattern\\docs\\ProblemToSolve.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-09T14:37:54.206Z",
+              "WhenOpened": "2025-06-09T21:33:17.091Z",
               "EditorCaption": ""
             },
             {
@@ -69,100 +41,9 @@
               "RelativeDocumentMoniker": "src\\ConsoleApp\\Program.cs",
               "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "src\\ConsoleApp\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwIIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwMcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:23:20.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FactorySpain.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactorySpain.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactorySpain.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactorySpain.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactorySpain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:21:35.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FactoryArgentina.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryArgentina.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryArgentina.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryArgentina.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryArgentina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:16:31.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFactorySpain.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactorySpain.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactorySpain.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactorySpain.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactorySpain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:15:20.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IFactoryArgentina.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryArgentina.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryArgentina.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryArgentina.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryArgentina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:14:26.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IFactoryUsa.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryUsa.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryUsa.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryUsa.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactoryUsa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:11:47.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactory.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactory.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactory.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\IFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:10:08.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FactoryUsa.cs",
-              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryUsa.cs",
-              "RelativeDocumentMoniker": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryUsa.cs",
-              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryUsa.cs",
-              "RelativeToolTip": "src\\ConsoleApp\\AbstractFactoryPattern\\Factory\\FactoryUsa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:10:03.555Z",
+              "WhenOpened": "2025-06-09T20:48:36.561Z",
               "EditorCaption": ""
             }
           ]

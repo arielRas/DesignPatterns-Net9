@@ -7,6 +7,12 @@ using ConsoleApp.FactoryPattern.Abstractions;
 using ConsoleApp.FactoryPattern.Enums;
 using ConsoleApp.FactoryPattern.Implementations;
 using ConsoleApp.MementoPattern.Implementations;
+using ConsoleApp.RepositoryPattern.Entities;
+using ConsoleApp.RepositoryPattern.Factory.Abstractions;
+using ConsoleApp.RepositoryPattern.Factory.Implementations;
+using ConsoleApp.RepositoryPattern.Repository.Abstractions;
+using ConsoleApp.RepositoryPattern.Settings;
+using Microsoft.Extensions.Configuration;
 
 namespace ConsoleApp
 {
@@ -17,7 +23,8 @@ namespace ConsoleApp
             //TestMemento();
             //TestComposite();
             //TestFactory();
-            TestAbstractFactory();
+            //TestAbstractFactory();
+            TestRepository();
         }
 
         static void TestMemento()
@@ -158,6 +165,87 @@ namespace ConsoleApp
             shipment = spainFactory.CreateShipment(address);
             invoice.Identify();
             shipment.Identify();
+        }
+        
+        static void TestRepository()
+        {
+            IFactoryCustomerRepository factoryCustomerRepository = new FactoryCustomerRepository();
+            IFactoryProductRepository factoryProductRepository = new FactoryProductRepository();
+
+            ICustomerRepository customerRepository = factoryCustomerRepository.CreateRepository();
+            IProductRepository productRepository = factoryProductRepository.CreateRepository();
+
+            if (DbEngineSettings.Engine.ToLower().Trim() == "mongo")
+                InsertMongoData(customerRepository, productRepository);
+
+            customerRepository.GetAll().ToList().ForEach(x =>
+            {
+                Console.WriteLine($"{x.Id} - {x.Name} - {x.Email}");
+            });
+
+            productRepository.GetAll().ToList().ForEach(x =>
+            {
+                Console.WriteLine($"{x.Id} - {x.Name} - {x.Price}");
+            });
+        }
+
+        static void InsertMongoData(ICustomerRepository customerRepository, IProductRepository productRepository)
+        {
+            var customers = new List<Customer>
+                {
+                    new Customer
+                    {
+                        Id = Guid.Parse("b094c314-4f25-41f2-b30e-b3001192d86d"),
+                        Name = "TestCustomer01",
+                        Email = "TestCustomer01@test.com"
+                    },
+                    new Customer
+                    {
+                        Id = Guid.Parse("d1d09b30-6a91-4c7f-a60e-ea70a2b15642"),
+                        Name = "TestCustomer02",
+                        Email = "TestCustomer02@test.com"
+                    },
+                    new Customer
+                    {
+                        Id = Guid.Parse("a04cb876-3be7-4912-8055-2972ae3fb5f2"),
+                        Name = "TestCustomer03",
+                        Email = "TestCustomer03@test.com"
+                    },
+                };
+
+            var products = new List<Product>
+                {
+                    new Product
+                    {
+                        Id = Guid.Parse("bd3c99ee-b312-4531-9a82-c79f903fdee0"),
+                        Name = "TestProduct01",
+                        Price = 200m
+                    },
+                    new Product
+                    {
+                        Id = Guid.Parse("be23af6a-39ec-4abe-aa83-5758a5ee0795"),
+                        Name = "TestProduct02",
+                        Price = 500
+                    },
+                    new Product
+                    {
+                        Id = Guid.Parse("50b83f41-cf19-4032-8892-8444de8b5eb2"),
+                        Name = "TestProduct03",
+                        Price = 1000
+                    },
+                };
+
+            customers.ForEach(x =>
+            {
+                if (!customerRepository.Exists(x.Id))
+                    customerRepository.Create(x);
+            });
+
+            products.ForEach(x =>
+            {
+                if (!productRepository.Exists(x.Id)) 
+                    productRepository.Create(x);
+            });
         }
     }
 }

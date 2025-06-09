@@ -1,0 +1,25 @@
+﻿Enunciado — Sistema de Acceso a Datos Desacoplado y Extensible
+
+Estás desarrollando una plataforma académica que debe permitir administrar información de productos y clientes, como parte de un sistema más grande de ventas.
+
+La empresa que te contrata aún no definió qué base de datos usará definitivamente, ya que están evaluando:
+ - MongoDB para entornos en la nube
+ - SQL Server para entornos locales
+ - Almacenamiento en memoria para fines de testing o demostraciones
+
+Debido a esto, se te solicita que diseñes e implementes una solución completamente desacoplada de cualquier tecnología de persistencia, que cumpla con los siguientes requisitos:
+
+Requisitos técnicos:
+ - El sistema debe permitir operar con dos entidades principales: Customer y Product.
+ - Cada entidad debe tener su propio repositorio especializado, que implemente operaciones CRUD.
+ - Los repositorios deben seguir un contrato común (IRepository<T>), para permitir manipular entidades sin conocer su implementación concreta.
+ - Se debe poder cambiar el motor de persistencia utilizado (Mongo, SQL Server, Memoria) desde una única fuente de configuración.
+ - El código cliente (quien usa los repositorios) no debe conocer ni el motor ni el tipo concreto de repositorio.
+ - La creación de los repositorios debe resolverse automáticamente mediante una fábrica que encapsule la lógica según el motor configurado.
+ - Se debe permitir extender el sistema en el futuro con más entidades sin romper la arquitectura actual.
+
+Bonus (si el desarrollador tiene tiempo):
+ - Crear un repositorio base reutilizable para casos genéricos en memoria o MongoDB.
+ - Aplicar principios SOLID en la organización del proyecto.
+ - Simular la carga inicial de datos para Mongo o memoria.
+ - Dejar preparada la solución para que se adapte a una API web si fuera necesario.
