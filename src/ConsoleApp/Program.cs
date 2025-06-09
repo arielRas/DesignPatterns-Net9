@@ -1,4 +1,5 @@
-﻿using ConsoleApp.MementoPattern.Implementations;
+﻿using ConsoleApp.CompositePattern.Implementations;
+using ConsoleApp.MementoPattern.Implementations;
 
 namespace ConsoleApp
 {
@@ -6,7 +7,8 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            TestMemento();
+            //TestMemento();
+            //TestComposite();
         }
 
         static void TestMemento()
@@ -76,6 +78,22 @@ namespace ConsoleApp
             Console.WriteLine("\tSe desahacen cambios");
             image.Redo();
             image.PrintCurrentProperties();
+        }
+    
+        static void TestComposite()
+        {            
+            
+            Console.WriteLine("Ingrese la ruta que desea analizar: \n");
+
+            string path = Console.ReadLine();
+
+            var rootDirectory = new DirectoryItem();
+
+            rootDirectory.LoadFromPath(path);
+
+            rootDirectory.Display();
+
+            Console.ReadKey();
         }
     }
 }

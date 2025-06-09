@@ -1,0 +1,5 @@
+﻿¿Qué patrón utilizaría para estructurar un sistema de archivos?
+
+Recordar que el mismo contiene directorios con archivos y a su vez estos archivos pueden ser otros directorios que contenga más archivos, y así sucesivamente.
+Realice el diagrama de clases y realice un prototipo básico en código para probar su diseño.
+Desarrolle a nivel de UI que el usuario seleccione una carpeta por consola o winform y pueda verse en pantalla la estructura del directorio utilizando su diseño.
