@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\factorypattern\\implementations\\factoryaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\factorypattern\\implementations\\factoryaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\factorypattern\\abstractions\\ifactoryaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\factorypattern\\abstractions\\ifactoryaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\factorypattern\\implementations\\virtualwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\factorypattern\\implementations\\virtualwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\factorypattern\\implementations\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\factorypattern\\implementations\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|c:\\users\\ariel\\desktop\\repositorios\\designpatternsnet9\\src\\consoleapp\\factorypattern\\abstractions\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2DCFA4-92D9-449E-B91C-B2E28C568907}|src\\ConsoleApp\\ConsoleApp.csproj|solutionrelative:src\\consoleapp\\factorypattern\\abstractions\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "src\\ConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:50:03.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FactoryAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Implementations\\FactoryAccount.cs",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\FactoryPattern\\Implementations\\FactoryAccount.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Implementations\\FactoryAccount.cs",
+              "RelativeToolTip": "src\\ConsoleApp\\FactoryPattern\\Implementations\\FactoryAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:49:18.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFactoryAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Abstractions\\IFactoryAccount.cs",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\FactoryPattern\\Abstractions\\IFactoryAccount.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Abstractions\\IFactoryAccount.cs",
+              "RelativeToolTip": "src\\ConsoleApp\\FactoryPattern\\Abstractions\\IFactoryAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:47:58.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VirtualWallet.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Implementations\\VirtualWallet.cs",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\FactoryPattern\\Implementations\\VirtualWallet.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Implementations\\VirtualWallet.cs",
+              "RelativeToolTip": "src\\ConsoleApp\\FactoryPattern\\Implementations\\VirtualWallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:46:53.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Implementations\\BankAccount.cs",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\FactoryPattern\\Implementations\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Implementations\\BankAccount.cs",
+              "RelativeToolTip": "src\\ConsoleApp\\FactoryPattern\\Implementations\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:42:09.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Abstractions\\IAccount.cs",
+              "RelativeDocumentMoniker": "src\\ConsoleApp\\FactoryPattern\\Abstractions\\IAccount.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Repositorios\\DesignPatternsNet9\\src\\ConsoleApp\\FactoryPattern\\Abstractions\\IAccount.cs",
+              "RelativeToolTip": "src\\ConsoleApp\\FactoryPattern\\Abstractions\\IAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:40:03.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

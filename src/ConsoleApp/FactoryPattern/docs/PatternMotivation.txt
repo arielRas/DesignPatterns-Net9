@@ -1,0 +1,13 @@
+﻿﻿Enunciado: Sistema de Gestión de Cuentas Bancarias
+Una fintech en desarrollo busca implementar un sistema para manejar distintos tipos de cuentas de usuario, como cuentas bancarias tradicionales y billeteras virtuales.
+Cada tipo de cuenta debe permitir operaciones básicas como depósito de fondos y transferencias entre cuentas.
+
+Para facilitar la creación de cuentas y garantizar la escalabilidad del sistema. El tipo de cuenta a instanciar pueda decidirse en tiempo de ejecución.
+
+El sistema debe permitir:
+ - Crear cuentas bancarias y billeteras virtuales.
+ - Depositar montos en cada tipo de cuenta.
+ - Transferir dinero entre cuentas de diferentes tipos.
+ - Encapsular la lógica de creación mediante una fábrica.
+
+Se busca una implementación que permita agregar fácilmente nuevos tipos de cuentas (por ejemplo, cuentas de criptomonedas) sin afectar el código existente del cliente.
