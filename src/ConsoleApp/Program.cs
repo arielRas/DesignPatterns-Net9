@@ -12,7 +12,6 @@ using ConsoleApp.RepositoryPattern.Factory.Abstractions;
 using ConsoleApp.RepositoryPattern.Factory.Implementations;
 using ConsoleApp.RepositoryPattern.Repository.Abstractions;
 using ConsoleApp.RepositoryPattern.Settings;
-using Microsoft.Extensions.Configuration;
 
 namespace ConsoleApp
 {
@@ -20,10 +19,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            //TestMemento();
-            //TestComposite();
-            //TestFactory();
-            //TestAbstractFactory();
+            TestMemento();
+            TestComposite();
+            TestFactory();
+            TestAbstractFactory();
             TestRepository();
         }
 
