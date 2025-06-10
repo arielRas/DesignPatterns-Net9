@@ -1,59 +1,50 @@
-﻿using ConsoleApp.MementoPattern.Abstractions;
-
-namespace ConsoleApp.MementoPattern.Implementations
+﻿namespace ConsoleApp.MementoPattern.Implementations
 {
     public class CareTaker
     {
-        private readonly Image _originator;
-        private Stack<Memento> _undo;
-        private Stack<Memento> _redo;
+        private Stack<Memento> _undoStack;
+        private Stack<Memento> _redoStack;
 
-        public CareTaker(Image originator)
+        public CareTaker()
         {
-            _originator = originator;
-            _undo = new Stack<Memento>();
-            _redo = new Stack<Memento>();
+            _undoStack = new Stack<Memento>();
+            _redoStack = new Stack<Memento>();
         }
 
-        public void SaveMemento()
+        public void SaveState(Memento state)
         {
-            _undo.Push(GetCurrentState(_originator));
+            _undoStack.Push(state);
 
-            if (_redo.Count > 0)
-                _redo.Clear();
+            if (_redoStack.Count > 0)
+                _redoStack.Clear();
         }
 
-        public Memento Undo()
+        public Memento Undo(Memento currentState)
         {
-            if (_undo != null && _undo.Count > 0)
+            if (_undoStack != null && _undoStack.Count > 0)
             {
-                _redo.Push(GetCurrentState(_originator));
+                _redoStack.Push(currentState);
 
-                var lastMemento = _undo.Pop();
+                var previousState = _undoStack.Pop();
 
-                return lastMemento;
+                return previousState;
             }
             else
                 throw new Exception("No existen estados guardados de la imagen");
         }
 
-        public Memento Redo()
+        public Memento Redo(Memento currentState)
         {
-            if (_redo != null && _redo.Count > 0)
+            if (_redoStack != null && _redoStack.Count > 0)
             {
-                _undo.Push(GetCurrentState(_originator));
+                _undoStack.Push(currentState);
 
-                var nextMemento = _redo.Pop();
+                var nextMemento = _redoStack.Pop();
 
                 return nextMemento;
             }
             else
                 throw new Exception("No existen estados para rehacer");
-        }
-
-        private Memento GetCurrentState(Image image)
-        {
-            return new Memento(image);
         }
     }
 }

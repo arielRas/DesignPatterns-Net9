@@ -6,5 +6,6 @@ namespace ConsoleApp.MementoPattern.Abstractions
     {
         void Redo();
         void Undo();
+        void SaveState();
     }
 }
