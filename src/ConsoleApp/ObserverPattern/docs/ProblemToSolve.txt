@@ -1,0 +1,49 @@
+﻿Plataforma de Streaming de Eventos Deportivos
+
+Objetivo
+Estás desarrollando la lógica de emisión y consumo de eventos deportivos en tiempo real. Un “evento” representa algo que ocurre dentro del partido, 
+y hay diferentes “componentes del sistema” que deben reaccionar ante ellos. No todos reaccionan igual, y algunos podrían activarse o desactivarse dinámicamente.
+
+Emisor central de eventos
+Hay un objeto central (por ejemplo, el “partido” o “transmisor del partido”) que es quien genera los eventos y los propaga al resto del sistema.
+
+Eventos típicos:
+ - PartidoIniciado
+ - GolConvertido
+ - TarjetaMostrada
+ - JugadorCambiado
+ - PartidoFinalizado
+ - Cada uno de esos eventos puede llevar información relevante (ej: nombre del jugador, minuto, equipo, tipo de tarjeta, etc.).
+
+
+Posibles “observadores” que reaccionan
+ - Motor de estadísticas:
+ - Cuenta goles, tarjetas, posesión, etc.
+ - Actualiza cada vez que recibe un evento.
+
+Módulo de notificaciones:
+ - Envía un push al celular del usuario: “⚽ Gol de Messi al 45’”.
+
+Interfaz gráfica (HUD/UI):
+ - Actualiza marcador, cronómetro, gráficos de alineación.
+
+Sistema de grabación/repetición:
+ - Marca en el video los eventos importantes.
+ - Graba los últimos 10 segundos cuando hay gol.
+
+Moderador de comentarios:
+ - Oculta mensajes en el chat cuando hay gol o tarjeta roja para evitar spam.
+
+Importante: estos módulos no deben estar acoplados entre sí ni al emisor directamente.
+
+Dinámica esperada:
+ - Los observadores pueden registrarse y desregistrarse dinámicamente (ej: el sistema de repetición podría activarse solo en partidos de alta audiencia).
+ - El “transmisor del partido” simplemente dispara eventos, sin saber quién lo está escuchando.
+ - Cada observador define qué hacer con cada tipo de evento.
+
+Qué se espera que modeles
+Una estructura donde:
+ - El emisor pueda agregar/quitar observadores.
+ - Los observadores sean notificados automáticamente cuando ocurra un evento.
+ - Cada observador pueda implementar su lógica de reacción.
+ - Bonus si lo hacés extendible a más tipos de eventos y observadores.

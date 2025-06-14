@@ -9,6 +9,9 @@ using ConsoleApp.FactoryPattern.Abstractions;
 using ConsoleApp.FactoryPattern.Enums;
 using ConsoleApp.FactoryPattern.Implementations;
 using ConsoleApp.MementoPattern.Implementations;
+using ConsoleApp.ObserverPattern.Abstractions;
+using ConsoleApp.ObserverPattern.Enums;
+using ConsoleApp.ObserverPattern.Implementations;
 using ConsoleApp.RepositoryPattern.Entities;
 using ConsoleApp.RepositoryPattern.Factory.Abstractions;
 using ConsoleApp.RepositoryPattern.Factory.Implementations;
@@ -21,12 +24,13 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            //TestMemento();
-            //TestComposite();
-            //TestFactory();
-            //TestAbstractFactory();
-            //TestRepository();
+            TestMemento();
+            TestComposite();
+            TestFactory();
+            TestAbstractFactory();
+            TestRepository();
             TestDecorator();
+            TestObserver();
         }
 
         static void TestMemento()
@@ -190,6 +194,26 @@ namespace ConsoleApp
             decoratedNotifier.Notify(notification);
         }
 
+        static void TestObserver()
+        {
+            var footballStreamer = new FootballStreamer(DateTime.Now, Sports.Football);
+            var boxingStreamer = new BoxingStreamer(DateTime.Now, Sports.Boxing);
+
+            ISubscriber statisticalSystem = new StatisticalSystem(Guid.NewGuid());
+            ISubscriber phoneNotificator = new PhoneNotificator(Guid.NewGuid());
+
+            footballStreamer.Subscribe(statisticalSystem);
+            footballStreamer.Subscribe(phoneNotificator);
+            boxingStreamer.Subscribe(statisticalSystem);
+
+            footballStreamer.CreateCardEvent("Messi", "Argentina", "Amarilla");
+            footballStreamer.CreateCardEvent("Mbappe", "Francia", "Roja");
+            footballStreamer.CreateGoalEvent("Di Maria", "Argentina");
+
+            boxingStreamer.CreateEndRoundEvent(8);
+            boxingStreamer.CreateKnockOutEvent(10, "Mike Tyson");
+
+        }
 
         static void TestRepository()
         {
