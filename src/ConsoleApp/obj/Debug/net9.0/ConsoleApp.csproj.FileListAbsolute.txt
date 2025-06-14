@@ -75,3 +75,4 @@ C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\
 C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
 C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
+C:\Users\Ariel\Desktop\Repositorios\DesignPatternsNet9\src\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json

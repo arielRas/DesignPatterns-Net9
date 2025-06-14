@@ -3,6 +3,8 @@ using ConsoleApp.AbstractFactoryPattern.Abstractions;
 using ConsoleApp.AbstractFactoryPattern.Enums;
 using ConsoleApp.AbstractFactoryPattern.Factory;
 using ConsoleApp.CompositePattern.Implementations;
+using ConsoleApp.DecoratorPattern.Entities;
+using ConsoleApp.DecoratorPattern.Implementations;
 using ConsoleApp.FactoryPattern.Abstractions;
 using ConsoleApp.FactoryPattern.Enums;
 using ConsoleApp.FactoryPattern.Implementations;
@@ -19,11 +21,12 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            TestMemento();
-            TestComposite();
-            TestFactory();
-            TestAbstractFactory();
-            TestRepository();
+            //TestMemento();
+            //TestComposite();
+            //TestFactory();
+            //TestAbstractFactory();
+            //TestRepository();
+            TestDecorator();
         }
 
         static void TestMemento()
@@ -100,7 +103,7 @@ namespace ConsoleApp
             
             Console.WriteLine("Ingrese la ruta que desea analizar: \n");
 
-            string path = Console.ReadLine();
+            string? path = Console.ReadLine();
 
             var rootDirectory = new DirectoryItem();
 
@@ -166,6 +169,28 @@ namespace ConsoleApp
             shipment.Identify();
         }
         
+        static void TestDecorator()
+        {
+            var notified = new Notified("Pedro", "pedro@gmail.com", "1174689612");
+
+            var notification = new Notification(notified, "Notificacion de prueba");
+
+            var baseNotifier = new Notifier();
+
+            var decoratedNotifier = new NotifierPerformanceDecorator(
+                    new NotifierLoggerDecorator(
+                            new NotifierWhatsappDecorator(
+                                    new NotifierEmailDecorator(
+                                            new NotifierTelegramDecorator(baseNotifier)
+                                     )
+                             )
+                     )
+             );
+
+            decoratedNotifier.Notify(notification);
+        }
+
+
         static void TestRepository()
         {
             IFactoryCustomerRepository factoryCustomerRepository = new FactoryCustomerRepository();

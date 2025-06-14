@@ -1,0 +1,22 @@
+﻿Enunciado — Sistema extensible de envío de notificaciones
+
+Una empresa necesita implementar un sistema de envío de notificaciones para sus usuarios. 
+Las notificaciones deben enviarse a través de distintos canales, como Telegram, Email y WhatsApp, y deben incluir funcionalidades adicionales como:
+ - Registro de logs de los envíos.
+ - Medición de tiempo de ejecución del proceso de notificación.
+
+El sistema debe cumplir los siguientes requisitos:
+ - Cada canal (por ejemplo, Telegram, Email, WhatsApp) debe poder enviarse de forma independiente o combinada con otros, 
+   sin que el cliente necesite preocuparse por cómo se implementan internamente.
+ - La adición de nuevos canales o funcionalidades debe poder realizarse sin modificar el código existente.
+ - El sistema debe permitir componer dinámicamente el envío, agregando comportamientos antes o después del canal base.
+ - El cliente solo debe llamar a un método Notify() sobre una única instancia, sin conocer su composición interna.
+ - El diseño debe ser escalable y abierto a extensiones futuras, manteniendo el bajo acoplamiento y respetando el principio de responsabilidad única.
+
+Ejemplo de configuración deseada
+Se requiere poder configurar un envío de notificación que haga lo siguiente, en este orden:
+ - Enviar el mensaje por Telegram
+ - Luego por Email
+ - Luego por WhatsApp
+ - Registrar el evento en consola o archivo
+ - Medir y mostrar el tiempo total de ejecución
