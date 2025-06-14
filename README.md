@@ -24,6 +24,9 @@ Cada patrón está implementado dentro de su propia carpeta, con una estructura 
 - [`Composite Pattern`](./src/ConsoleApp/CompositePattern)  
   Modela estructuras jerárquicas como proyectos que contienen tareas, documentos o incluso otros subproyectos, permitiendo tratarlos de forma uniforme.
 
+- [`Decorator Pattern`](./src/ConsoleApp/DecoratorPattern)  
+  Permite extender dinámicamente el comportamiento de un notificador agregando funcionalidades como envío por distintos canales, log de eventos y medición de rendimiento, sin modificar la clase base.
+
 ---
 
 ### 🔁 Patrones de Comportamiento
@@ -72,7 +75,6 @@ El repositorio se encuentra en constante crecimiento. Próximamente se agregará
 - Builder
 - Strategy
 - State
-- Decorator
 - Chain of Responsibility
 - Command
 - Mediator
